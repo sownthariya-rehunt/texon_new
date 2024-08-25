@@ -1,0 +1,9 @@
+{
+  "/page": "app/page.js",
+  "/how-it-works/page": "app/how-it-works/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/about-simple/page": "app/about-simple/page.js",
+  "/features-2/page": "app/features-2/page.js",
+  "/features/page": "app/features/page.js"
+}

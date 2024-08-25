@@ -1,0 +1,67 @@
+.whatsapp1 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: linear-gradient(247.32deg, #04522c 7.79%, #00ff00 94.18%);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.whatsapp2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    padding: 50px;
+}
+
+.call1 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(247.32deg, #04522c 7.79%, #00ff00 94.18%);
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.hover-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: 50px;
+    width: fit-content;
+  visibility:visible !important; 
+}
+
+.popup {
+    visibility: hidden;
+    width: 250px;
+    height: 50px;
+    color: #060606;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    /* bottom: 170%; */
+    left: 90%;
+    top: 20%;
+    margin-left: -80px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.popup::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.hover-container:hover .popup {
+    visibility: visible;
+    opacity: 1;
+}

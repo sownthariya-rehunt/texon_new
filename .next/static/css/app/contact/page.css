@@ -1,0 +1,108 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/Layouts/LayoutNav.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.btn-style{
+    z-index: 1;
+    border: none;
+    position: relative;
+    padding: 15px 35px;
+    border-radius: 30px;
+    display: inline-block;
+    color: var(--whiteColor);
+    transition: var(--transition);
+    box-shadow: 0px 12px 35px rgba(237, 39, 117, 0.25);
+    font-size: var(--fontSize);
+    font-weight: 600;
+}
+.btn-style::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: var(--transition);
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 30px;
+    background: var(--gradientColor);
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/Contact/Contact.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.whatsapp1 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: linear-gradient(247.32deg, #04522c 7.79%, #00ff00 94.18%);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.whatsapp2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    padding: 50px;
+}
+
+.call1 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(247.32deg, #04522c 7.79%, #00ff00 94.18%);
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.hover-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: 50px;
+    width: -moz-fit-content;
+    width: fit-content;
+  visibility:visible !important; 
+}
+
+.popup {
+    visibility: hidden;
+    width: 250px;
+    height: 50px;
+    color: #060606;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    /* bottom: 170%; */
+    left: 90%;
+    top: 20%;
+    margin-left: -80px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.popup::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.hover-container:hover .popup {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/components/Layouts/style.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.bgclr{
+    background-color: aliceblue !important;
+    border-radius: 50% !important;
+    padding: 50px !important;
+}
